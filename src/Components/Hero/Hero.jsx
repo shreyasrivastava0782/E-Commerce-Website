@@ -3,6 +3,8 @@ import './Hero.css'
 import hand_icon from '../Assests/hand_icon.png'
 import arrow_icon from '../Assests/arrow.png'
 import hero_image from '../Assests/hero_image.png'
+
+//hero
 const Hero = () => {
   return (
     <div className='hero'>
