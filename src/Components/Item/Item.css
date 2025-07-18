@@ -1,0 +1,50 @@
+.item {
+  width: 350px;
+  transition: transform 0.6s;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+/* Fix class name: should be `.item p` */
+.item p {
+  margin: 6px 0px;
+}
+
+.item-prices {
+  display: flex;
+  gap: 20px;
+}
+
+/* New price */
+.item-price-new {
+  color: #374151;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Old price */
+.item-price-old {
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+/* -------- Responsive -------- */
+
+@media (max-width: 768px) {
+  .item {
+    width: 100%;
+  }
+
+  .item-prices {
+    gap: 10px;
+  }
+
+  .item-price-new,
+  .item-price-old {
+    font-size: 16px;
+  }
+}

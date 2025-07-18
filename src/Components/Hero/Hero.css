@@ -1,0 +1,123 @@
+.hero {
+  height: 100vh;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* ------- Left Side ------- */
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 180px;
+  line-height: 1.1;
+}
+
+.hero-left h2 {
+  color: #090909;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hero-left p {
+  color: #171717;
+  font-size: 100%;
+  font-weight: 700;
+}
+
+.hero-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-hand-icon img {
+  width: 105px;
+}
+
+/* ------- Button ------- */
+.hero-latest-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 310px;
+  height: 70px;
+  border-radius: 75px;
+  margin-top: 30px;
+  background: #ff4141;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* ------- Right Side ------- */
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* ------- Responsive CSS ------- */
+
+@media (max-width: 1024px) {
+  .hero-left {
+    padding-left: 100px;
+  }
+
+  .hero-left h2 {
+    font-size: 18px;
+  }
+
+  .hero-left p {
+    font-size: 95%;
+  }
+
+  .hero-latest-btn {
+    width: 260px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .hero-hand-icon img {
+    width: 85px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-left {
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .hero-left h2 {
+    font-size: 18px;
+  }
+
+  .hero-left p {
+    font-size: 90%;
+  }
+
+  .hero-latest-btn {
+    width: 220px;
+    height: 55px;
+    font-size: 18px;
+  }
+
+  .hero-right {
+    margin-top: 30px;
+  }
+}
