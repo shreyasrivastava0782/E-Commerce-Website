@@ -5,7 +5,7 @@ import instagram_icon from '../Assests/instagram_icon.png'
 import pintester_icon from '../Assests/pintester_icon.png'
 import whatsapp_icon from '../Assests/whatsapp_icon.png'
 
-
+//footer
 const Footer = () => {
   return (
     <div className='footer'>
