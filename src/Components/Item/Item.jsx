@@ -2,6 +2,8 @@ import React from 'react'
 import './Item.css'
 import {Link} from 'react-router-dom'
 
+
+//items
 const Item = (props) => {
   return (
     <div className='item'>
