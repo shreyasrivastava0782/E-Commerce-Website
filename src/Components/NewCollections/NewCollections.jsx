@@ -3,6 +3,8 @@ import './NewCollections.css'
 import new_collection from '../Assests/new_collections'
 import Item from '../Item/Item'
 
+
+//newcollections
 const NewCollections = () => {
   return (
     <div className='new-collections'>
