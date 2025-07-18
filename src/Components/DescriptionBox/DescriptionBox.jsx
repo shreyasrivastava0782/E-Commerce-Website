@@ -1,6 +1,7 @@
 import React from 'react'
 import './DescriptionBox.css'
 
+//description
 const DescriptionBox = () => {
   return (
     <div className='descriptionbox'>
