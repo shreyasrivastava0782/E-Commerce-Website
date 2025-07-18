@@ -1,6 +1,8 @@
 import React from 'react'
 import './NewsLetter.css'
 
+
+//newsletter
 const NewsLetter = () => {
   return (
     <div className='newsletter'>
